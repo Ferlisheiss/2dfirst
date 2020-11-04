@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/PM_ABB_MKH8040_3_BOX_DROP_IMPACT_BOOMY_CLOSE_HOLLOW_LFE.wav-205da8913608f6ea66dd58c0f764f571.sample"
+
+[deps]
+
+source_file="res://sound/PM_ABB_MKH8040_3_BOX_DROP_IMPACT_BOOMY_CLOSE_HOLLOW_LFE.wav"
+dest_files=[ "res://.import/PM_ABB_MKH8040_3_BOX_DROP_IMPACT_BOOMY_CLOSE_HOLLOW_LFE.wav-205da8913608f6ea66dd58c0f764f571.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0
