@@ -72,19 +72,19 @@ animations = [ {
 } ]
 
 [sub_resource type="RectangleShape2D" id=2]
-extents = Vector2( 47.8815, 57.3274 )
+extents = Vector2( 47.8815, 68.4536 )
 
 [node name="player" type="KinematicBody2D"]
 script = ExtResource( 27 )
 
 [node name="Sprite" type="AnimatedSprite" parent="."]
-position = Vector2( 29.5916, 29.5916 )
+position = Vector2( 580.881, -82.5349 )
 scale = Vector2( 2.34846, 2.34846 )
 frames = SubResource( 1 )
 animation = "fall"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2( 32.2786, 39.8619 )
+position = Vector2( 605.88, -86.2782 )
 shape = SubResource( 2 )
 
 [node name="Camera2D" type="Camera2D" parent="."]
@@ -95,5 +95,5 @@ limit_bottom = 10000
 limit_smoothed = true
 
 [node name="RayCast2D" type="RayCast2D" parent="."]
-position = Vector2( 37, 64.5 )
+position = Vector2( 57.1298, 88.8676 )
 enabled = true

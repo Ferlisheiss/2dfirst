@@ -73,3 +73,11 @@ func animate():
 	if $Sprite.animation != anim:
 		$Sprite.play(anim) 
 		
+
+
+func _on_TileMap_script_changed():
+	pass # Replace with function body.
+
+
+func _on_Sprite_texture_changed():
+	pass # Replace with function body.
