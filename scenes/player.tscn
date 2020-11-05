@@ -78,13 +78,13 @@ extents = Vector2( 47.8815, 68.4536 )
 script = ExtResource( 27 )
 
 [node name="Sprite" type="AnimatedSprite" parent="."]
-position = Vector2( 580.881, -82.5349 )
+position = Vector2( -6.44861, 0.225174 )
 scale = Vector2( 2.34846, 2.34846 )
 frames = SubResource( 1 )
 animation = "fall"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2( 605.88, -86.2782 )
+position = Vector2( -10.816, -0.84845 )
 shape = SubResource( 2 )
 
 [node name="Camera2D" type="Camera2D" parent="."]
