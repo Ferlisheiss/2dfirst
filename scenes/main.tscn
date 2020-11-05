@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=2]
+[gd_scene load_steps=11 format=2]
 
 [ext_resource path="res://tile.tres" type="TileSet" id=1]
 [ext_resource path="res://sprite/background/1.png" type="Texture" id=2]
@@ -9,6 +9,7 @@
 [ext_resource path="res://sprite/background/4.png" type="Texture" id=7]
 [ext_resource path="res://scenes/crabby.tscn" type="PackedScene" id=8]
 [ext_resource path="res://sprite/mxmDBYxj6_4.jpg" type="Texture" id=9]
+[ext_resource path="res://sprite/2-Enemy-Bald Pirate/1-Idle/1.png" type="Texture" id=10]
 
 [node name="main" type="Node2D"]
 
@@ -53,6 +54,11 @@ scroll_base_scale = Vector2( 0.6, 0.6 )
 position = Vector2( 736.68, 230.859 )
 scale = Vector2( 2.54012, 2.5447 )
 texture = ExtResource( 6 )
+
+[node name="1" type="Sprite" parent="ParallaxBackground3/ParallaxLayer"]
+position = Vector2( 442.637, 296.87 )
+scale = Vector2( 2.54012, 2.5447 )
+texture = ExtResource( 10 )
 
 [node name="ParallaxBackground4" type="ParallaxBackground" parent="."]
 
